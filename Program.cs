@@ -15,10 +15,6 @@ namespace RacingDash
             iRacingSDK.SessionFlags flags = iRacingSDK.SessionFlags.blue | iRacingSDK.SessionFlags.furled | iRacingSDK.SessionFlags.yellow;
             Telemetry tele = new Telemetry();
             tele.getData();
-            // TODO: data to arduino X
-            // TODO: Arduino drawing calculated in arduino
-            // TODO: Make picture for arduino
-
 
             // Correctly closes application
             System.Environment.Exit(1);
